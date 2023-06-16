@@ -1,0 +1,42 @@
+.form {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input[type="text"] {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    min-width: 80%;
+}
+
+.clear {
+    cursor: pointer;
+    position: relative;
+    width: min-content;
+    z-index: 1;
+    margin-left: -25px;
+    background: transparent;
+    border: 0px none;
+    font-size: 19px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+
+.form button[type="submit"].add {
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    width: 40px;
+    background: rgb(223, 177, 184);
+    margin: 0 0 0 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
